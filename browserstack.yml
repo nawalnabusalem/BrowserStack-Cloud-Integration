@@ -1,0 +1,25 @@
+userName: YOUR_USER_NAME
+accessKey: YOUR_ACCESS_KEY
+platforms:
+  - os: Windows
+    osVersion: 11
+    browserName: Firefox
+    browserVersion: latest
+
+  - os: OS X
+    osVersion: Sequoia
+    browserName: Safari
+    browserVersion: 18.4
+
+  - deviceName: Samsung Galaxy S23 Ultra
+    osVersion: 13.0
+    browserName: chrome
+    deviceOrientation: portrait
+
+browserstackLocal: true
+buildName: SauceDemoLogin
+buildIdentifier: ${BUILD_NUMBER}
+projectName: SauceDemoLogin
+debug: true
+networkLogs: true
+consoleLogs: info

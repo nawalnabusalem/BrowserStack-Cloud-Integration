@@ -1,0 +1,28 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+.env
+.venv/
+env/
+venv/
+
+# Test coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Editor settings
+.idea/
+.vscode/
+
+#browser stack
+log
+local.log
